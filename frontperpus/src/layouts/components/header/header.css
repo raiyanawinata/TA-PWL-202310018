@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  margin-left: 20px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  /* background-color: white;
+  color: "#320B44";
+  border-color: "#320B44"; */
+  color: aqua;
+}
+
+.nav-link {
+  color: blue;
+  text-decoration: none;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+.header-actions {
+  margin-left: 20px;
+}
